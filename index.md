@@ -1,11 +1,8 @@
-# Project Name Here
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+# Thermal Imaging Camera
+My project uses a Raspberry Pi and an MLX90640 thermal sensor to create a thermal image that shows tempersyure differences in its surroundings. Throughout the project, I learned how to connect hardware components, troubleshoot coding issues, and process sensor data into a visual heat map. One of the biggest challenges was finding and fixing errors in the code used to set up the Raspberry Pi. By working through these issues, I learned the importance of improvising and coming up with different solutions to a problem. This project helped me develop my programming, problem-solving, and engineering skills while gaining a better understanding of how thermal imaging technology works.
 
-You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
-```HTML 
-<!--- This is an HTML comment in Markdown -->
-<!--- Anything between these symbols will not render on the published site -->
-```
+
+
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
