@@ -42,12 +42,37 @@ To finish my project, I plan to continue testing and improving the code so the t
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
-  
+## What I Worked On
+
+For my second milestone i focused on improving the thermal imaging system and adding a light that responses to the thermal data. I successfully connected the MLX90640 thermal camera to the Raspberry Pi 4 and displayed the thermal image on my tv using an HDMI connection. I originally planned to use SSH from my computer, but I encountered some connection issues that didn't allow my to connect to the Pi. To be able to work on it, I had to connect the Pi directly to the TV, which allowed my to work directly on the Pi and troubleshoot problems easier. I also learned how to use the Pi's GPIo pins and built my first breadboard curcuit using a LED, resistor, and jumper wires. My main modification for this milestone was programming the Raspberry Pi to process the thermal camera data and turn on an LED whenever the camera detected a temperature above 30°C. This chnaged my project from just a passive display system into a system that can detect and react to its environment.
+
+## Technical Accomplishments
+- Connected and configured the MLX90640 thermal camera with the Raspberry Pi 4
+- Improved and modified the Python thermal imaging code
+- Learned how to use Raspberry Pi GPIO pins
+- Built and tested an LED circuit on a breadboard
+- Added GPIO control into the thermal camera software
+- Programmed the LED to turn on automatically when temperature goes above 30°C
+- Displayed thermal imaging data on a TV through HDMI
+
+## Challenges and Solutions
+
+One challenge was getting comfortable with wiring electronic components on a breadboard. I had to learn how the breadboard rows are connected and how to correctly wire an LED and resistor. Another challenge was learning how to use Raspberry Pi GPIO pins with Python. After testing with some code that made the LED blink, I was able to integrate GPIO control into the thermal camera project. I also experienced issues using SSH from my computer to access the Raspberry Pi. To overcome this problem, I connected the Raspberry Pi directly to a TV through HDMI and finished the coding and modifications directly on the Pi. Finally, I had to modify and troubleshoot the thermal camera software so that it could both display thermal data and control external hardware at the same time.
+
+## What Has Been Surprising
+
+One surprising aspect of the project was how quickly a simple LED modification made the system feel much more interactive. Instead of only displaying temperature information, the project now responded to temperature changes in real time. I was also surprised by how much troubleshooting and debugging is involved in hardware projects, especially when combining sensors, wiring, and software.
+
+## Next Steps Before the Final Milestone
+
+Before the final milestone, I plan to:
+
+- Add a servo motor to the project.
+- Mount the thermal camera onto the servo.
+- Program the servo to rotate toward the hottest detected object.
+- Continue improving the thermal imaging software.
+- Build a more complete thermal tracking system that can automatically locate heat sources.
+
 # Final Milestone
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
