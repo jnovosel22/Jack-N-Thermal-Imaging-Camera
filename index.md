@@ -131,7 +131,7 @@ if __name__ == "__main__":
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  
 
 }
 ```
