@@ -17,7 +17,7 @@ My project uses a Raspberry Pi and an MLX90640 thermal sensor to create a therma
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0ZNL-KDt8wE?si=af_gQW8OYCirsSap" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For your first milestone, describe what your project is and how you plan to build it. You can include:
+
 ## Components and Integration
 My project uses a Raspberry Pi 4, an MLX90640 thermal sensor, jumper wires, and several Python libraries. The thermal sensor collects temperature data from whatever it is pointed at and sends that information to the Raspberry Pi. The Raspberry Pi then processes the data and uses Python to create a color-coded thermal image that shows temperature differences in real time.
 
