@@ -84,6 +84,30 @@ For your final milestone, explain the outcome of your project. Key details to in
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
 
+## Accomplishments
+
+Since my last milestone, I completed my final modification. I successfully connected an MLX90640 thermal camera and an SG90 servo motor to a Raspberry Pi 4 as well as adding a seperate power source for the servo. The camera displays a live thermal image on a TV, and the servo rotates to track the hottest object in the camera's field of view. I also improved my tracking code by having the servo respond to where the hottest column is located instead of just the single hottest pixel, making the tracking more accurate.
+
+## Biggest Challenges and Triumphs
+
+The biggest challenge was getting the servo to track the heat correctly. There were times when it moved away from the hottest object instead of toward it, and I spent a lot of time changing my code, testing different ideas, and debugging until it worked. Another challenge was that I originally wanted to use both an Arduino and a Raspberry Pi, but I realized that would make the project much more complicated. I redesigned the project to use only the Raspberry Pi, which simplified both the hardware and software. Then finally my SSH stopped working during the project and I had to plug the Pi in directly to the TV via an HDMI cable. Overall though, my biggest accomplishment was getting everything to work together. Seeing the thermal image update in real time while the servo automatically tracked the hottest object made all of the troubleshooting worth it. It was really rewarding to see the final project come together.
+
+## What I Learned
+
+- Python programming
+- Raspberry Pi GPIO programming
+- I2C communication
+- Thermal imaging with the MLX90640 camera
+- Servo motor control
+- Breadboard wiring and electronics
+- Debugging hardware and software together
+- Breaking a large engineering problem into smaller steps
+
+One of the biggest lessons I learned was that engineering is mostly about solving problems. Almost nothing worked perfectly the first time, but every problem anad mistake helped me understand the project better and learn from the mistakes.
+
+## Furture Goals
+
+After everything I learned during BlueStamp Engineering, I'd like to continue building projects with the MLX90640 thermal camera. One idea I have is to revisit my original idea of building a thermal tracking car that can detect and follow the hottest object while avoiding obstacles. At the beginning of this project, that idea was too ambitious, but now that I understand how to use the Raspberry Pi, thermal camera, servo motors, and GPIO pins, I think it's something I could actually build in the future. I'd also like to experiment with other thermal imaging projects, improve the tracking system to make it smoother and more accurate, and continue learning about robotics, computer vision, and coding. This project gave me a strong foundation, and I'm excited to keep building on what I learned.
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
