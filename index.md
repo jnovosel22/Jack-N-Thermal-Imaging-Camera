@@ -8,9 +8,9 @@ My project uses a Raspberry Pi and an MLX90640 thermal sensor to create a therma
 |:--:|:--:|:--:|:--:|
 | Jack N | Hoggard | Aerospace/Mechanical Engineering | Incoming Senior
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
-![Headstone Image](logo.svg)
+<img width="1930" height="2354" alt="image" src="https://github.com/user-attachments/assets/11eee93a-3da1-4d53-8e05-4a40aecf1da9" />
+
 
 # First Milestone
 
@@ -106,7 +106,7 @@ After everything I learned during BlueStamp Engineering, I'd like to continue bu
 
 
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
+
 ## Milestone 1 Code
 ```c++
 import time
@@ -333,8 +333,7 @@ if __name__ == '__main__':
     main()
    ```
 # Bill of Materials
-Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
-Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
+
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
