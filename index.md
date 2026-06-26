@@ -347,5 +347,5 @@ Don't forget to place the link of where to buy each component inside the quotati
 | 9v 1a Converter Adaptor | Power for the servo | $7.59 | <a href="https://www.amazon.com/dp/B074BRR5YN?ref_=cm_sw_r_cp_ud_dp_34TCN7JY70MCM2DQS4KF_1"> Link </a> |
 
 # Other Resources
-- [Resource 1](https://how2electronics.com/diy-thermal-imaging-camera-with-mlx90640-raspberry-pi/)
+- [Pi Setup](https://how2electronics.com/diy-thermal-imaging-camera-with-mlx90640-raspberry-pi/)
 
