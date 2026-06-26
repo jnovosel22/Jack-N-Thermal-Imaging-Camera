@@ -76,7 +76,7 @@ Before the final milestone, I plan to:
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/622oiV1isv0?si=UNNXXe3bX58cmYkx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ## Accomplishments
@@ -105,7 +105,8 @@ One of the biggest lessons I learned was that engineering is mostly about solvin
 After everything I learned during BlueStamp Engineering, I'd like to continue building projects with the MLX90640 thermal camera. One idea I have is to revisit my original idea of building a thermal tracking car that can detect and follow the hottest object while avoiding obstacles. At the beginning of this project, that idea was too ambitious, but now that I understand how to use the Raspberry Pi, thermal camera, servo motors, and GPIO pins, I think it's something I could actually build in the future. I'd also like to experiment with other thermal imaging projects, improve the tracking system to make it smoother and more accurate, and continue learning about robotics, computer vision, and coding. This project gave me a strong foundation, and I'm excited to keep building on what I learned.
 
 # Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
+ <img width="939" height="451" alt="image" src="https://github.com/user-attachments/assets/2aadabcc-0b34-40aa-af52-2bb909015bdd" />
+
 
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
